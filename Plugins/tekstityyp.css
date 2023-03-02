@@ -1,0 +1,217 @@
+a.menyy:link {
+	text-decoration: none;
+	color: #999999;
+	font-family: Palatino Linotype;
+	text-align: left;
+	font-size: 10pt;
+	font-weight: bold
+}
+a.menyy:visited {
+	text-decoration: none;
+	color: #999999;
+	font-family: Palatino Linotype;
+	text-align: left;
+	font-size: 10pt;
+	font-weight: bold
+}
+a.menyy:active {
+	text-decoration: none;
+	color: #999999;
+	font-family: "Palatino Linotype";
+	text-align: left;
+	font-size: 10pt;
+	font-weight: bold
+}
+a.menyy:hover {
+	text-decoration: none;
+	color: #333333;
+	font-family: Palatino Linotype;
+	text-align: left;
+	font-size: 10pt;
+	font-weight: bold
+}
+a.alamenyy:link {
+	text-decoration: none;
+	color: #333333;
+	font-family: Palatino Linotype;
+	text-align: left;
+	font-size: 8pt;
+	font-weight: normal
+}
+a.alamenyy:visited {
+	text-decoration: none;
+	color: #333333;
+	font-family: Palatino Linotype;
+	text-align: left;
+	font-size: 8pt;
+	font-weight: normal
+}
+a.alamenyy:active {
+	text-decoration: none;
+	color: #333333;
+	font-family: "Palatino Linotype";
+	text-align: left;
+	font-size: 8pt;
+	font-weight: normal
+}
+a.alamenyy:hover {
+	text-decoration: none;
+	color: #990000;
+	font-family: Palatino Linotype;
+	text-align: left;
+	font-size: 8pt;
+	font-weight: normal
+}
+a.juht:link {
+	text-decoration: none;
+	color: #336699;
+	font-family: Palatino Linotype;
+	text-align: left;
+	font-size: 10pt;
+	font-weight: normal
+}
+a.juht:visited {
+	text-decoration: none;
+	color: #336699;
+	font-family: Palatino Linotype;
+	text-align: left;
+	font-size: 10pt;
+	font-weight: normal
+}
+a.juht:active {
+	text-decoration: none;
+	color: #336699;
+	font-family: "Palatino Linotype";
+	text-align: left;
+	font-size: 10pt;
+	font-weight: normal
+}
+a.juht:hover {
+	text-decoration: none;
+	color: #990000;
+	font-family: Palatino Linotype;
+	text-align: left;
+	font-size: 10pt;
+	font-weight: normal
+}
+a.Viide:link {
+	text-decoration: none;
+	color: Blue;
+	font-family: Palatino Linotype;
+	font-style: italic;
+	font-size: 10pt;
+}
+a.Viide:visited {
+	text-decoration: none;
+	color: Blue;
+	font-family: Palatino Linotype;
+	font-style: italic;
+	font-size: 10pt;
+}
+a.Viide:active {
+	text-decoration: none;
+	color: Blue;
+	font-family: "Palatino Linotype";
+	font-style: italic;
+	font-size: 10pt;
+}
+a.Viide:hover {
+	text-decoration: underline;
+	color: Red;
+	font-family: Palatino Linotype;
+	font-style: italic;
+	font-size: 10pt;
+}
+a.mail:link {
+	text-decoration: none;
+	color: #DDDDDD;
+	font-family: Palatino Linotype;
+	font-style: italic;
+	font-size: 10pt;
+}
+a.mail:visited {
+	text-decoration: none;
+	color: #DDDDDD;
+	font-family: Palatino Linotype;
+	font-style: italic;
+	font-size: 10pt;
+}
+a.mail:active {
+	text-decoration: none;
+	color: #DDDDDD;
+	font-family: "Palatino Linotype";
+	font-style: italic;
+	font-size: 10pt;
+}
+a.mail:hover {
+	text-decoration: underline;
+	color: #EEEEEE;
+	font-family: Palatino Linotype;
+	font-style: italic;
+	font-size: 10pt;
+}
+h1 {
+	font-family: Palatino Linotype;
+	font-size: 12pt;
+	color: Gray;
+	font-weight: bold;
+	text-align: left;
+}
+h2 {
+	font-family: Palatino Linotype;
+	font-size: 11pt;
+	color: Gray;
+	font-weight: bold;
+	text-align: left;
+}
+h3 {
+	font-family: Palatino Linotype;
+	font-size: 10pt;
+	color: Black;
+	font-weight: bold;
+	text-align: left;
+	font-style: normal;
+}
+h4 {
+	font-family: Palatino Linotype;
+	font-size: 10pt;
+	color: Black;
+	font-weight: bold;
+	text-align: left;
+	font-style: italic;
+}
+p {
+	font-family: "Palatino Linotype";
+	font-size: 10pt;
+	color: Black;
+	text-align: justify;
+}
+
+a.mina:link {
+	text-decoration: none;
+	font-family: Palatino Linotype;
+	font-size: 7pt;
+	color: #CCCCCC;
+	font-style: italic;
+}
+a.mina:visited {
+	text-decoration: none;
+	font-family: Palatino Linotype;
+	font-size: 7pt;
+	color: #CCCCCC;
+	font-style: italic;
+}
+a.mina:active {
+	text-decoration: none;
+	font-family: "Palatino Linotype";
+	font-size: 7pt;
+	color: #CCCCCC;
+	font-style: italic;
+}
+a.mina:hover {
+	text-decoration: none;
+	font-family: Palatino Linotype;
+	font-size: 7pt;
+	color: #CCCCCC;
+	font-style: italic;
+}

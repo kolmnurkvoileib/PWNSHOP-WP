@@ -1,0 +1,149 @@
+# Translation of Plugins - Akismet Spam Protection - Stable (latest release) in Estonian
+# This file is distributed under the same license as the Plugins - Akismet Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-01 15:43:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: et_EE\n"
+"Project-Id-Version: Plugins - Akismet Spam Protection - Stable (latest release)\n"
+
+#: views/config.php:203 class.akismet-admin.php:258
+msgid "Status"
+msgstr "Olek"
+
+#: views/notice.php:112
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "Sisestatud võti on vigane. Palun kontrolli seda."
+
+#: views/notice.php:50
+msgid "Network functions are disabled."
+msgstr "Võrgufunktsioonid on välja lülitatud."
+
+#: views/notice.php:23
+msgid "Akismet has detected a problem."
+msgstr "Akismet on avastanud probleemi."
+
+#: views/config.php:109
+msgid "Show approved comments"
+msgstr "Näita heakskiidetud kommentaare"
+
+#: views/config.php:176
+msgid "Save Changes"
+msgstr "Salvesta muudatused"
+
+#: class.akismet-admin.php:529
+msgid "Awaiting spam check"
+msgstr "Rämpsukontrolli ootel"
+
+#: class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr "Akismeti moodul"
+
+#: class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Näita Akismeti poolt kinnipüütud rämpskommentaaride arvu"
+
+#: class.akismet-widget.php:102
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong>Akismet</strong> on püüdnud kinni <strong class=\"count\">%1$s rämpskommentaari</strong>"
+msgstr[1] "<strong>Akismet</strong> on püüdnud kinni <strong class=\"count\">%1$s rämpskommentaari</strong>"
+
+#: views/config.php:60 class.akismet-admin.php:105 class.akismet-admin.php:241
+#: class.akismet-admin.php:696
+msgid "Settings"
+msgstr "Seaded"
+
+#: class.akismet-admin.php:275
+msgid "Cheatin&#8217; uh?"
+msgstr "Proovid rehepappi?"
+
+#: class.akismet-admin.php:357
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">Akismet</a> on kaitsnud sinu ajaveebi %2$s rämpskommentaari eest</a>."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> on kaitsnud sinu ajaveebi %2$s rämpskommentaari eest."
+
+#: class.akismet-admin.php:533
+msgid "Flagged as spam by Akismet"
+msgstr "Märgitud rämpsuks Akismeti poolt"
+
+#: class.akismet-admin.php:553
+msgid "History"
+msgstr "Ajalugu"
+
+#: class.akismet-admin.php:345
+msgctxt "comments"
+msgid "Spam"
+msgstr "Märgi rämpsuks"
+
+#: class.akismet-admin.php:535
+msgid "Cleared by Akismet"
+msgstr "Akismeti poolt kontrollitud"
+
+#: class.akismet-admin.php:576
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%1$s heakskiidetud kommentaar"
+msgstr[1] "%1$s heakskiidetud kommentaari"
+
+#: class.akismet-admin.php:639
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "Akismet märkis selle kommentaari automaatse järelkontrolli käigus rämpsuks."
+
+#: class.akismet-admin.php:665
+msgid "Comment status was changed to %s"
+msgstr "Kommentaari olek muudetud: %s"
+
+#: class.akismet-admin.php:642
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "Akismet lubas selle kommentaari automaatse järelkontrolli käigus."
+
+#: class.akismet-admin.php:553 class.akismet-admin.php:561
+msgid "View comment history"
+msgstr "Vaata kommentaaride ajalugu"
+
+#: class.akismet-admin.php:86 class.akismet-admin.php:1212
+msgid "Akismet"
+msgstr "Akismet"
+
+#: class.akismet-admin.php:539
+msgid "Flagged as spam by %s"
+msgstr "Märgitud rämpsuks kasutaja %s poolt"
+
+#: class.akismet-admin.php:541
+msgid "Un-spammed by %s"
+msgstr "Märgitud mitterämpsuks kasutaja %s poolt"
+
+#: class.akismet-widget.php:69 class.akismet-widget.php:90
+msgid "Spam Blocked"
+msgstr "Rämpskirjad on blokeeritud"
+
+#: class.akismet-widget.php:74
+msgid "Title:"
+msgstr "Pealkiri:"
+
+#: class.akismet-admin.php:232 class.akismet-admin.php:243
+#: class.akismet-admin.php:256
+msgid "Akismet Configuration"
+msgstr "Akismeti häälestus"
+
+#: class.akismet-admin.php:219
+msgid "Akismet Stats"
+msgstr "Akismeti näidud"
+
+#: class.akismet-admin.php:422
+msgid "Check for Spam"
+msgstr "Rämpsukontroll"
+
+#: class.akismet-admin.php:680
+msgid "%s ago"
+msgstr "%s tagasi"
+
+#: class.akismet-admin.php:82
+msgid "Comment History"
+msgstr "Kommentaaride ajalugu"

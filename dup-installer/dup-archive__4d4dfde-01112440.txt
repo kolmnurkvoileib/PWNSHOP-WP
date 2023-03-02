@@ -1,0 +1,703 @@
+{
+    "dup_type": "lite",
+    "created": "2023-03-01 11:24:40",
+    "version_dup": "1.5.2.1",
+    "version_wp": "6.0.3",
+    "version_db": "10.4.26",
+    "version_php": "8.2.3",
+    "version_os": "Linux",
+    "blogname": "",
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "$2a$08$b.7RswXCAmqfvZT3MB48N.eIlYckk49hFPwQj3NbqFSD.nTfSxh7W",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "dbpass": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "ozbd_",
+    "mu_mode": 2,
+    "mu_generation": 2,
+    "mu_siteadmins": [
+        "zoneplus"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "tkepandimaja.ee",
+            "path": "\/",
+            "blogname": "",
+            "blog_prefix": "ozbd_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "zoneplus",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/tkepandimaja.ee",
+            "fullSiteUrl": "https:\/\/tkepandimaja.ee",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/uploads",
+            "fullUploadSafePath": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/tkepandimaja.ee\/wp-content\/uploads",
+            "filteredPaths": []
+        },
+        {
+            "id": 2,
+            "domain": "tkepandimaja.ee",
+            "path": "\/ru\/",
+            "blogname": "TKEPANDIMAJA RU",
+            "blog_prefix": "ozbd_2_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "2",
+                    "user_login": "ru",
+                    "id": "2"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/tkepandimaja.ee\/ru",
+            "fullSiteUrl": "https:\/\/tkepandimaja.ee\/ru",
+            "uploadPath": "wp-content\/uploads\/sites\/2",
+            "fullUploadPath": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/uploads\/sites\/2",
+            "fullUploadSafePath": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/uploads\/sites\/2",
+            "fullUploadUrl": "https:\/\/tkepandimaja.ee\/wp-content\/uploads\/sites\/2",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "d6000sd468784",
+        "tablesBaseCount": 29,
+        "tablesFinalCount": 29,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 825,
+        "tablesSizeOnDisk": 4898816,
+        "tablesList": {
+            "ozbd_2_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "ozbd_2_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "ozbd_2_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "ozbd_2_options": {
+                "inaccurateRows": 164,
+                "insertedRows": 164,
+                "size": 1097728
+            },
+            "ozbd_2_postmeta": {
+                "inaccurateRows": 108,
+                "insertedRows": 108,
+                "size": 49152
+            },
+            "ozbd_2_posts": {
+                "inaccurateRows": 31,
+                "insertedRows": 30,
+                "size": 114688
+            },
+            "ozbd_2_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "ozbd_2_terms": {
+                "inaccurateRows": 4,
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "ozbd_2_term_relationships": {
+                "inaccurateRows": 12,
+                "insertedRows": 11,
+                "size": 32768
+            },
+            "ozbd_2_term_taxonomy": {
+                "inaccurateRows": 4,
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "ozbd_blogmeta": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 49152
+            },
+            "ozbd_blogs": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "ozbd_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "ozbd_comments": {
+                "inaccurateRows": 2,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "ozbd_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "ozbd_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "ozbd_options": {
+                "inaccurateRows": 231,
+                "insertedRows": 235,
+                "size": 2179072
+            },
+            "ozbd_postmeta": {
+                "inaccurateRows": 95,
+                "insertedRows": 95,
+                "size": 49152
+            },
+            "ozbd_posts": {
+                "inaccurateRows": 32,
+                "insertedRows": 32,
+                "size": 114688
+            },
+            "ozbd_registration_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "ozbd_signups": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "ozbd_site": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "ozbd_sitemeta": {
+                "inaccurateRows": 77,
+                "insertedRows": 77,
+                "size": 180224
+            },
+            "ozbd_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "ozbd_terms": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 49152
+            },
+            "ozbd_term_relationships": {
+                "inaccurateRows": 12,
+                "insertedRows": 10,
+                "size": 32768
+            },
+            "ozbd_term_taxonomy": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 49152
+            },
+            "ozbd_usermeta": {
+                "inaccurateRows": 39,
+                "insertedRows": 42,
+                "size": 49152
+            },
+            "ozbd_users": {
+                "inaccurateRows": 1,
+                "insertedRows": 2,
+                "size": 65536
+            }
+        },
+        "varLowerCaseTables": "0",
+        "dbEngine": "MariaDB",
+        "version": "10.4.26",
+        "versionComment": "Source distribution",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20230301",
+        "packageHash": "4d4dfde-01112440",
+        "secondaryHash": "f3389ec-01112440"
+    },
+    "fileInfo": {
+        "dirCount": 3459,
+        "fileCount": 22625,
+        "size": 1317241443
+    },
+    "wpInfo": {
+        "version": "6.0.3",
+        "is_multisite": true,
+        "network_id": 1,
+        "targetRoot": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs",
+        "targetPaths": [
+            "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "zoneplus",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "yq96Qzfq9xP3FchRmn27PzwZ0l5QYIppF3JGD5GBuLpYQt42k7vIdG1cETCJkrbG",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "hAn3zxiIYSgY2JEXB38gIaiDS3qC3YkC4pRtsB24ILk5tEDc4Ipc55h9tA3IsgRO",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "PLmzipvFSQoqzvFEM1HEpewL6wiGxFmi5cRUi5i5DNfGWyaV8gaNHESjs9H1CoWo",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "JwH3RvyP1VxLlEooVqwFiF1oQbJtOV2HxVuMbMgl8Wtkojk8Y2yOYqYGr4e5lb2X",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "qVfWBzI1P7UCwsxkFghsfFNMraLMVyvdxNkX3U091zZgzRYQBijGwtKXAyCWA4Kf",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "ESXlbd9NAZdMDPr6tH4EmHcWIaSFYMT4aotnVRYOcrNUy3AzrRa7BrJfw4sUjMo0",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "LZXCmKMrVUFrdk7tQokDAQEORIG9XVkZ6EOwsDzc5CVVeCxorvkn3i1wwsnm7Q0w",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "5CUzhFf4ybCweXjka2rcMfzfUDVpqXQWyw8bsAG8D6vnndnnmcB0lHaqLVKkG2U0",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/tkepandimaja.ee\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/tkepandimaja.ee\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_ALLOW_MULTISITE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "MULTISITE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "DOMAIN_CURRENT_SITE": {
+                    "value": "tkepandimaja.ee",
+                    "inWpConfig": true
+                },
+                "PATH_CURRENT_SITE": {
+                    "value": "\/",
+                    "inWpConfig": true
+                },
+                "SITE_ID_CURRENT_SITE": {
+                    "value": 1,
+                    "inWpConfig": true
+                },
+                "BLOG_ID_CURRENT_SITE": {
+                    "value": 1,
+                    "inWpConfig": true
+                },
+                "SUBDOMAIN_INSTALL": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "VHOST": {
+                    "value": "no",
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "64M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "1024M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_TEMP_DIR": {
+                    "value": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/uploads",
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": true
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": true
+                },
+                "FS_METHOD": {
+                    "value": "direct",
+                    "inWpConfig": true
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/themes\/Tkepandimaja_theme",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/themes\/Tkepandimaja_theme",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/tkepandimaja.ee\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/tkepandimaja.ee",
+                "homeUrl": "https:\/\/tkepandimaja.ee",
+                "loginUrl": "https:\/\/tkepandimaja.ee\/wp-login.php",
+                "contentUrl": "https:\/\/tkepandimaja.ee\/wp-content",
+                "uploadBaseUrl": "https:\/\/tkepandimaja.ee\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/tkepandimaja.ee\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/tkepandimaja.ee\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/tkepandimaja.ee\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs",
+                    "abs": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs",
+                    "wpconfig": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs",
+                    "wpcontent": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content",
+                    "uploads": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/uploads",
+                    "plugins": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/plugins",
+                    "muplugins": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/mu-plugins",
+                    "themes": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs",
+                    "abs": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs",
+                    "wpconfig": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs",
+                    "wpcontent": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content",
+                    "uploads": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/uploads",
+                    "plugins": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/plugins",
+                    "muplugins": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/mu-plugins",
+                    "themes": "\/data01\/virt6822\/domeenid\/www.tkepandimaja.ee\/htdocs\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "cb-change-mail-sender\/index.php": {
+                "slug": "cb-change-mail-sender\/index.php",
+                "name": "CB Change Mail Sender",
+                "version": "1.2.2",
+                "pluginURI": "",
+                "author": "Md Abul Bashar",
+                "authorURI": "http:\/\/www.codingbank.com",
+                "description": "Easy to change mail sender name and email from wordpress default name and email.",
+                "title": "CB Change Mail Sender",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.7.3",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "webp-converter-for-media\/webp-converter-for-media.php": {
+                "slug": "webp-converter-for-media\/webp-converter-for-media.php",
+                "name": "Converter for Media",
+                "version": "5.6.4",
+                "pluginURI": "",
+                "author": "matt plugins",
+                "authorURI": "https:\/\/url.mattplugins.com\/converter-plugin-author-link",
+                "description": "Speed up your website by using our WebP & AVIF Converter (formerly WebP Converter for Media). Serve WebP and AVIF images instead of standard formats JPEG, PNG and GIF just now!",
+                "title": "Converter for Media",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "drag-and-drop-upload-cf7-pro\/drag-n-drop-upload-cf7-pro.php": {
+                "slug": "drag-and-drop-upload-cf7-pro\/drag-n-drop-upload-cf7-pro.php",
+                "name": "Drag and Drop Multiple File Upload PRO - Contact Form 7",
+                "version": "2.10.9",
+                "pluginURI": "https:\/\/profiles.wordpress.org\/glenwpcoder",
+                "author": "CodeDropz",
+                "authorURI": "http:\/\/codedropz.com",
+                "description": "This simple plugin create Drag & Drop or choose Multiple File upload in your Confact Form 7 Forms.",
+                "title": "Drag and Drop Multiple File Upload PRO - Contact Form 7",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.2.1",
+                "pluginURI": "https:\/\/snapcreek.com\/duplicator\/duplicator-free\/",
+                "author": "Snap Creek",
+                "authorURI": "http:\/\/www.snapcreek.com\/duplicator\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "updraftplus\/updraftplus.php": {
+                "slug": "updraftplus\/updraftplus.php",
+                "name": "UpdraftPlus - Backup\/Restore",
+                "version": "1.22.24",
+                "pluginURI": "https:\/\/updraftplus.com",
+                "author": "UpdraftPlus.Com, DavidAnderson",
+                "authorURI": "https:\/\/updraftplus.com",
+                "description": "Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV & email, on automatic schedules.",
+                "title": "UpdraftPlus - Backup\/Restore",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "webp-express\/webp-express.php": {
+                "slug": "webp-express\/webp-express.php",
+                "name": "WebP Express",
+                "version": "0.25.5",
+                "pluginURI": "https:\/\/github.com\/rosell-dk\/webp-express",
+                "author": "Bj\u00f8rn Rosell",
+                "authorURI": "https:\/\/www.bitwise-it.dk",
+                "description": "Serve autogenerated WebP images instead of jpeg\/png to browsers that supports WebP. Works on anything (media library images, galleries, theme images etc).",
+                "title": "WebP Express",
+                "networkActive": true,
+                "active": [],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordpress-importer\/wordpress-importer.php": {
+                "slug": "wordpress-importer\/wordpress-importer.php",
+                "name": "WordPress Importer",
+                "version": "0.8",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/wordpress-importer\/",
+                "author": "wordpressdotorg",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "description": "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file.",
+                "title": "WordPress Importer",
+                "networkActive": false,
+                "active": [
+                    1,
+                    2
+                ],
+                "mustUse": false,
+                "dropIns": false
+            },
+            "automation-by-installatron.php": {
+                "slug": "automation-by-installatron.php",
+                "name": "WordPress automation by Installatron",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "Management of this WordPress site is provided by Installatron.",
+                "title": "WordPress automation by Installatron",
+                "networkActive": false,
+                "active": false,
+                "mustUse": true,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "Tkepandimaja_theme": {
+                "slug": "Tkepandimaja_theme",
+                "themeName": "",
+                "version": "",
+                "themeURI": "",
+                "parentTheme": false,
+                "template": "Tkepandimaja_theme",
+                "stylesheet": "Tkepandimaja_theme",
+                "description": "",
+                "author": "",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": [
+                    1
+                ],
+                "defaultTheme": false
+            },
+            "Tkepandimaja_theme_rus": {
+                "slug": "Tkepandimaja_theme_rus",
+                "themeName": "",
+                "version": "",
+                "themeURI": "",
+                "parentTheme": false,
+                "template": "Tkepandimaja_theme_rus",
+                "stylesheet": "Tkepandimaja_theme_rus",
+                "description": "",
+                "author": "",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": [
+                    2
+                ],
+                "defaultTheme": false
+            }
+        }
+    },
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": ""
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20230301_4d4dfdec599f51dc9990_20230301112440_installer-backup.php",
+    "package_name": "20230301_4d4dfdec599f51dc9990_20230301112440_archive.zip",
+    "package_hash": "4d4dfde-01112440",
+    "package_notes": ""
+}

@@ -1,0 +1,186 @@
+# Translation of Themes - Twenty Twenty in Estonian
+# This file is distributed under the same license as the Themes - Twenty Twenty package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-04 15:00:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: et_EE\n"
+"Project-Id-Version: Themes - Twenty Twenty\n"
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+msgid "Twenty Twenty"
+msgstr "Twenty Twenty"
+
+#: inc/template-tags.php:396
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "Rubriigis"
+
+#: inc/starter-content.php:73 inc/starter-content.php:88
+#: inc/starter-content.php:105 inc/starter-content.php:120
+#: inc/block-patterns.php:78 inc/block-patterns.php:160
+#: inc/block-patterns.php:174
+msgid "Read More"
+msgstr "Loe edasi"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr "Üles %s"
+
+#. translators: %s: Number of search results.
+#: index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Leidsime %s vastuse sinu otsigule."
+msgstr[1] "Leidsime %s vastust sinu otsigule."
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr "Lehe algusesse %s"
+
+#. translators: Copyright date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:68
+msgid "%1$s at %2$s"
+msgstr "%1$s kell %2$s"
+
+#: classes/class-twentytwenty-walker-comment.php:82
+msgid "Edit"
+msgstr "Muuda"
+
+#: classes/class-twentytwenty-walker-comment.php:98
+msgid "Your comment is awaiting moderation."
+msgstr "Sinu kommentaar ootab modereerimist."
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Kommenteeri"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Üks vastus postitusele &ldquo;%s&rdquo;"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s vastus postitusele &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s vastust postitusele &ldquo;%2$s&rdquo;"
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Kommentaarid"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Kommenteerimine on suletud"
+
+#: inc/starter-content.php:177 inc/starter-content.php:187
+msgid "Primary"
+msgstr "Peamine"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "Sotsiaalmeediaviidete menüü"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:207
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Muuda <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Pages:"
+msgstr "Lehed:"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Jalus"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Page"
+msgstr "Leht"
+
+#: template-parts/pagination.php:25
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "Vanemad <span class=\"nav-short\">postitused</span>"
+
+#: template-parts/pagination.php:21
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "Uuemad <span class=\"nav-short\">postitused</span>"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Sulge menüü"
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:357 template-parts/entry-author-bio.php:20
+msgid "By %s"
+msgstr "Postitas %s"
+
+#: searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr "Otsi"
+
+#: searchform.php:25
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Otsi &hellip;"
+
+#: index.php:32
+msgid "Search:"
+msgstr "Otsi:"
+
+#: inc/template-tags.php:410
+msgid "Tags"
+msgstr "Sildid"
+
+#: inc/template-tags.php:392 template-parts/entry-header.php:36
+#: template-parts/content-cover.php:70
+msgid "Categories"
+msgstr "Rubriigid"
+
+#: inc/template-tags.php:374
+msgid "Post date"
+msgstr "Postituse kuupäev"
+
+#: inc/template-tags.php:350
+msgid "Post author"
+msgstr "Postituse autor"
+
+#: header.php:76 header.php:137
+msgid "Menu"
+msgstr "Menüü"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "Kasutame WordPressi"
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Lehte ei leitud"
+
+#. Author URI of the theme
+#: footer.php:32
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "WordPressi meeskond"

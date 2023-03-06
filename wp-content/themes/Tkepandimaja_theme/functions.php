@@ -43,3 +43,7 @@ add_action('init', 'keweb_theme_setup');
 add_theme_support( 'custom-logo');
 
 add_filter('acf/settings/remove_wp_meta_box', '__return_false');
+
+if (file_exists(__DIR__ . '/functions/acf-blocks.php')) {
+  require_once(__DIR__ . '/functions/acf-blocks.php');
+}

@@ -1,10 +1,7 @@
-<?php get_header(); ?>
+<?php get_header();
 
-<div class="page-content page-template">
+while (have_posts()) : the_post();
+    the_content();
+endwhile;
 
-<?= get_the_content(); ?>
-
-</div>
-</div>
-
-<?php get_footer(); ?>
+ get_footer(); ?>

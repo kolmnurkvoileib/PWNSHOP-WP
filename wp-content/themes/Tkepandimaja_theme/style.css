@@ -2,3 +2,5 @@ ul{padding:0 !important;margin:0 !important}*{font-family:"Sora", sans-serif}h1{
 .grecaptcha-badge { 
     visibility: hidden;
 }
+
+sass main.scss style.css

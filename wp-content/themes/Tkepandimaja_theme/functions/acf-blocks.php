@@ -19,43 +19,33 @@ function my_acf_init_block_types()
     if (function_exists('acf_register_block_type')) {
 
         acf_register_block_type(array(
-            'name'              => 'acf-block',
-            'title'             => ('acf-block'),
-            'description'       => __('acf-block.'),
-            'render_template'   => 'acf-blocks/acf-block.php',
+            'name'              => 'textimageBlock',
+            'title'             => ('textimageBlock'),
+            'description'       => __('textimageBlock.'),
+            'render_template'   => 'acf-blocks/textimageBlock.php',
             'category'          => 'tkepandimaja',
             'icon'              => 'email',
-            'keywords'          => array('acf-block'),
+            'keywords'          => array('textimageBlock'),
         ));
 
         acf_register_block_type(array(
-            'name'              => 'acf-block-1',
-            'title'             => ('acf-block-1'),
-            'description'       => __('acf-block-1.'),
-            'render_template'   => 'acf-blocks/acf-block-1.php',
+            'name'              => 'titletextBlock',
+            'title'             => ('titletextBlock'),
+            'description'       => __('titletextBlock.'),
+            'render_template'   => 'acf-blocks/titletextBlock.php',
             'category'          => 'tkepandimaja',
             'icon'              => 'email',
-            'keywords'          => array('acf-block-1'),
+            'keywords'          => array('titletextBlock'),
         ));
 
         acf_register_block_type(array(
-            'name'              => 'acf-block-2',
-            'title'             => ('acf-block-2'),
-            'description'       => __('acf-block-2.'),
-            'render_template'   => 'acf-blocks/acf-block-2.php',
+            'name'              => 'repeaterBlock',
+            'title'             => ('repeaterBlock'),
+            'description'       => __('repeaterBlock.'),
+            'render_template'   => 'acf-blocks/repeaterBlock.php',
             'category'          => 'tkepandimaja',
             'icon'              => 'email',
-            'keywords'          => array('acf-block-2'),
-        ));
-
-        acf_register_block_type(array(
-            'name'              => 'acf-block-3',
-            'title'             => ('acf-block-3'),
-            'description'       => __('acf-block-3.'),
-            'render_template'   => 'acf-blocks/acf-block-3.php',
-            'category'          => 'tkepandimaja',
-            'icon'              => 'email',
-            'keywords'          => array('acf-block-3'),
+            'keywords'          => array('repeaterBlock'),
         ));
     }
 

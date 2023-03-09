@@ -10,11 +10,11 @@ function tkepandimaja_block_categories($categories, $post)
     return array_reverse($categories);
 }
 add_filter('block_categories', 'tkepandimaja_block_categories', 1, 2);
-
 add_action('acf/init', 'my_acf_init_block_types');
 function my_acf_init_block_types()
 {
 
+    wp_register_style( 'new_style', plugins_url('/scss/main.scss', __FILE__), false, '1.0.0', 'all');
 
     if (function_exists('acf_register_block_type')) {
 

@@ -1,0 +1,21 @@
+{
+  "name": "tkepandimaja_theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": { 
+    "dev": "sass --watch scss/main.scss:style.css --style compressed --no-source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "sass-watch": "^0.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.21"
+  }
+}

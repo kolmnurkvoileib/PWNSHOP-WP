@@ -1,0 +1,7 @@
+.textimageblock {
+    display: flex;
+    gap: 2rem;
+    &__item {
+        width: 50%;
+    }
+}

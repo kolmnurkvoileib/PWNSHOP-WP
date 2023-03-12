@@ -14,8 +14,6 @@ add_action('acf/init', 'my_acf_init_block_types');
 function my_acf_init_block_types()
 {
 
-    wp_register_style( 'new_style', plugins_url('/scss/main.scss', __FILE__), false, '1.0.0', 'all');
-
     if (function_exists('acf_register_block_type')) {
 
         acf_register_block_type(array(

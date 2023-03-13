@@ -1,7 +1,44 @@
 .textimageblock {
     display: flex;
-    gap: 2rem;
-    &__item {
-        width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textimageblock__item {
+    flex-basis: 50%;
+    padding: 0 20px;
+}
+
+.textimageblock__image {
+    flex-basis: 50%;
+    padding: 0 20px;
+}
+
+.textimageblock__image {
+    flex-basis: 50%;
+    padding: 0 20px;
+    position: relative;
+}
+
+.textimageblock__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .textimageblock {
+        flex-direction: column-reverse;
+    }
+
+    .textimageblock__item,
+    .textimageblock__image {
+        flex-basis: 100%;
+        padding: 20px;
+    }
+
+    .textimageblock__item {
+        order: 2;
     }
 }

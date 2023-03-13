@@ -12,7 +12,7 @@
 
      </div>
 
-     <div class="textimageblock__item">
+     <div class="textimageblock__image">
 
          <?php if (get_field('image')) : ?>
              <img src="<?php the_field('image'); ?>" />

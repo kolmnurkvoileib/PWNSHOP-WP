@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer>
     <div class="footer-item">
 
         <h4>Kontakt info</h4>
@@ -22,8 +22,8 @@
     </div>
 
     <div class="footer-item">
-        <img src="<?= get_template_directory_uri(); ?>/img/kellapandimajalogo.png" alt="TKE Pandimaja Tallinn" width="192" height="192"/>
-        <?= date("Y"); ?>
+        <img src="?= get_template_directory_uri(); ?>/img/kellapandimajalogo.png" alt="TKE Pandimaja Tallinn" width="192" height="192"/>
+        ?= date("Y"); ?>
     </div>
 
     <div class="footer-item">
@@ -32,7 +32,7 @@
         <p>Esimene kella pandimaja Eestis</p>
 
         <p>TKE Pandimaja OÜ asutati AS Tallinna pank, Karavan
-            OÜ ja E.P.T.A. OÜ poolt 1992 aastal (sellest ka firma nimi TKE Pandimaja.
+            OÜ ja E.P.T.A. OÜ poolt 1992 aastal sellest ka firma nimi TKE Pandimaja.
             Tänaseks on need juriidilised asutajaliikmed läinud igaüks
             oma teed, kuid juhtkond ja põhiline personal on säilinud.</p>
 
@@ -43,6 +43,8 @@
     </div>
 
 </footer>
-<?php wp_footer(); ?>
+?php wp_footer(); ?>
 </body>
-</html>
+</html> -->
+
+<?php the_field('FooterOptions', 'option'); ?>

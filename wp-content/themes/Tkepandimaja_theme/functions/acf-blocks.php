@@ -45,6 +45,7 @@ function my_acf_init_block_types()
             'icon'              => 'email',
             'keywords'          => array('repeaterBlock'),
         ));
+
     }
 
         
@@ -52,20 +53,13 @@ function my_acf_init_block_types()
 
 //See osa optionitele mida pärast kasutame ei ole seotud blokkidega
 
-if (function_exists('acf_add_options_page')) {
-
+if( function_exists('acf_add_options_page') ) {
     acf_add_options_page(array(
-        'page_title'     => 'Theme Settings',
-        'menu_title'    => 'Theme Settings',
-        'menu_slug'     => 'theme-settings',
+        'page_title'    => 'FooterOptions',
+        'menu_title'    => 'FooterOptions',
+        'menu_slug'     => 'FooterOptions',
         'capability'    => 'edit_posts',
-        'redirect'        => false
-    ));
-
-    acf_add_options_sub_page(array(
-        'page_title'     => 'Theme Footer',
-        'menu_title'    => 'Footer',
-        'parent_slug'    => 'theme-settings',
+        'redirect'      => false
     ));
 }
 

@@ -51,16 +51,4 @@ function my_acf_init_block_types()
         
 }
 
-//See osa optionitele mida pärast kasutame ei ole seotud blokkidega
-
-if( function_exists('acf_add_options_page') ) {
-    acf_add_options_page(array(
-        'page_title'    => 'FooterOptions',
-        'menu_title'    => 'FooterOptions',
-        'menu_slug'     => 'FooterOptions',
-        'capability'    => 'edit_posts',
-        'redirect'      => false
-    ));
-}
-
 ?>

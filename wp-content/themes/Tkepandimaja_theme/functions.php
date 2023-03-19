@@ -7,7 +7,7 @@ function keweb_script_enqueue() {
   
   $parent_style = 'parent-style'; 
   
-  wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.min.css' );
+  wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
   wp_enqueue_style( 'child-style',
   get_stylesheet_directory_uri() . '/style.css',
   array( $parent_style),
@@ -48,20 +48,7 @@ if (file_exists(__DIR__ . '/functions/acf-blocks.php')) {
   require_once(__DIR__ . '/functions/acf-blocks.php');
 }
 
-if (function_exists('acf_add_options_page')) {
-  
-      acf_add_options_page(array(
-        'page_title'    => 'Theme General Settings',
-        'menu_title'    => 'Theme Settings',
-        'menu_slug'     => 'theme-general-settings',
-        'capability'    => 'edit_posts',
-        'redirect'      => false
-    ));
-
-    acf_add_options_sub_page(array(
-        'page_title'    => 'Theme Footer Settings',
-        'menu_title'    => 'Footer',
-        'parent_slug'   => 'theme-general-settings',
-      ));
-
+if (file_exists(__DIR__ . '/functions/acf-options.php')) {
+  require_once(__DIR__ . '/functions/acf-options.php');
 }
+

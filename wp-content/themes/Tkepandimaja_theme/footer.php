@@ -1,4 +1,4 @@
-<!-- <footer>
+<footer>
     <div class="footer-item">
 
         <h4>Kontakt info</h4>
@@ -22,8 +22,8 @@
     </div>
 
     <div class="footer-item">
-        <img src="?= get_template_directory_uri(); ?>/img/kellapandimajalogo.png" alt="TKE Pandimaja Tallinn" width="192" height="192"/>
-        ?= date("Y"); ?>
+        <img src="<?= get_template_directory_uri(); ?>/img/kellapandimajalogo.png" alt="TKE Pandimaja Tallinn" width="192" height="192"/>
+        <?= date("Y"); ?>
     </div>
 
     <div class="footer-item">
@@ -43,8 +43,53 @@
     </div>
 
 </footer>
-?php wp_footer(); ?>
+<?php wp_footer(); ?>
 </body>
-</html> -->
+</html>
 
-<?php the_field('FooterOptions', 'option'); ?>
+
+<div class="footeroption">
+    
+     <div class="footeroption__item">
+        <?php if (get_field('text_area', 'option')) : ?>
+            <p><?php the_field('text_area', 'option'); ?>
+            Kontakt info
+            Jakobsoni 6
+            +372 5014769
+            Või +372 58250366
+            kellapandimaja@tkepandimaja.ee
+
+            ONLINE hindamine 24/7
+
+            Kontori lahtioleku ajad E-R 9-17
+
+
+            Privaatsustingimused
+            </p>
+        <?php endif; ?>
+
+    </div>
+
+     </div>
+
+     <div class="footeroption__image">
+
+         <?php if (get_field('image', 'option')) : ?>
+             <img src="<?php the_field('image', 'option'); ?>" />
+         <?php endif; ?>
+
+     </div>
+
+     <div class="footeroption__item">
+         <?php
+            if (get_field('title', 'option')) : ?>
+             <h1> <?php the_field('title', 'option') ?></h1>
+         <?php endif; ?>
+         <?php
+            if (get_field('text_area', 'option')) : ?>
+             <p><?php the_field('text_area', 'option') ?></p>
+         <?php endif; ?>
+
+     </div>
+
+ </div>

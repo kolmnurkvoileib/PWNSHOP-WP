@@ -54,12 +54,9 @@
 
         <?php
             if (get_field('title_kontakt', 'option')) : ?>
-             <p><?php the_field('title_kontakt', 'option') ?></p>
+             <h4><?php the_field('title_kontakt', 'option') ?></h4>
         <?php endif; ?>
 
-    </div>
-
-     <div class="footeroption__item">
 
         <?php
         $rows = get_field('repeater_footer', 'option');
@@ -80,9 +77,9 @@
             echo '<p>' . $text1 . '</p>';
             echo '<p>' . $text2 . '</p>';
             echo '<p>' . $text3 . '</p>';
-            echo '<p>' . $text4 . '</p>';
+            echo '<p style="margin-bottom: 15px;">' . $text4 . '</p>';
             echo '<p>' . $text5 . '</p>';
-            echo '<p>' . $text6 . '</p>';
+            echo '<p style="margin-top: 15px;">' . $text6 . '</p>';
             echo '</div>';
             }
         }
@@ -93,7 +90,8 @@
     <div class="footeroption__image">
 
          <?php if (get_field('image', 'option')) : ?>
-             <img src="<?php the_field('image', 'option'); ?>" />
+             <img src="<?php the_field('image', 'option'); ?>" width="192" height="192" />
+             <?= date("Y"); ?>
          <?php endif; ?>
 
      </div>
@@ -102,12 +100,8 @@
 
      <?php
             if (get_field('title_ettevõtte', 'option')) : ?>
-             <p><?php the_field('title_ettevõtte', 'option') ?></p>
+             <h4><?php the_field('title_ettevõtte', 'option') ?></h4>
         <?php endif; ?>
-
-     </div>
-
-     <div class="footeroption__item">
 
      <?php
         $rows = get_field('repeater_footer1', 'option');

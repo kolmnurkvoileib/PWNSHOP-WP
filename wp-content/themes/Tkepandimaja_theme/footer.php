@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer>
     <div class="footer-item">
 
         <h4>Kontakt info</h4>
@@ -22,8 +22,8 @@
     </div>
 
     <div class="footer-item">
-        <img src="<?= get_template_directory_uri(); ?>/img/kellapandimajalogo.png" alt="TKE Pandimaja Tallinn" width="192" height="192"/>
-        <?= date("Y"); ?>
+        <img src= ?= get_template_directory_uri(); ?>/img/kellapandimajalogo.png" alt="TKE Pandimaja Tallinn" width="192" height="192"/>
+        ?= date("Y"); ?>
     </div>
 
     <div class="footer-item">
@@ -43,9 +43,9 @@
     </div>
 
 </footer>
-<?php wp_footer(); ?>
+?php wp_footer(); ?>
 </body>
-</html>
+</html> -->
 
 
 <div class="footeroption">

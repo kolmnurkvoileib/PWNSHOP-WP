@@ -51,28 +51,46 @@
 <div class="footeroption">
     
      <div class="footeroption__item">
-        <?php if (get_field('text_area', 'option')) : ?>
-            <p><?php the_field('text_area', 'option'); ?>
-            Kontakt info
-            Jakobsoni 6
-            +372 5014769
-            Või +372 58250366
-            kellapandimaja@tkepandimaja.ee
 
-            ONLINE hindamine 24/7
-
-            Kontori lahtioleku ajad E-R 9-17
-
-
-            Privaatsustingimused
-            </p>
+        <?php
+            if (get_field('title_kontakt', 'option')) : ?>
+             <p><?php the_field('title_kontakt', 'option') ?></p>
         <?php endif; ?>
 
     </div>
 
-     </div>
+     <div class="footeroption__item">
 
-     <div class="footeroption__image">
+        <?php
+        $rows = get_field('repeater_footer', 'option');
+        if($rows) {
+    
+            foreach($rows as $row) {
+          
+            $text = $row['text_jakob'];
+            $text1 = $row['text_5014'];
+            $text2 = $row['text_5825'];
+            $text3 = $row['text_email'];
+            $text4 = $row['text_online'];
+            $text5 = $row['text_kontor'];
+            $text6 = $row['text_privaatsus'];
+
+            echo '<div class="repeaterblock_footer__wrapper">';
+            echo '<p>' . $text . '</p>';
+            echo '<p>' . $text1 . '</p>';
+            echo '<p>' . $text2 . '</p>';
+            echo '<p>' . $text3 . '</p>';
+            echo '<p>' . $text4 . '</p>';
+            echo '<p>' . $text5 . '</p>';
+            echo '<p>' . $text6 . '</p>';
+            echo '</div>';
+            }
+        }
+        ?>
+
+    </div>
+
+    <div class="footeroption__image">
 
          <?php if (get_field('image', 'option')) : ?>
              <img src="<?php the_field('image', 'option'); ?>" />
@@ -81,14 +99,35 @@
      </div>
 
      <div class="footeroption__item">
-         <?php
-            if (get_field('title', 'option')) : ?>
-             <h1> <?php the_field('title', 'option') ?></h1>
-         <?php endif; ?>
-         <?php
-            if (get_field('text_area', 'option')) : ?>
-             <p><?php the_field('text_area', 'option') ?></p>
-         <?php endif; ?>
+
+     <?php
+            if (get_field('title_ettevõtte', 'option')) : ?>
+             <p><?php the_field('title_ettevõtte', 'option') ?></p>
+        <?php endif; ?>
+
+     </div>
+
+     <div class="footeroption__item">
+
+     <?php
+        $rows = get_field('repeater_footer1', 'option');
+        if($rows) {
+    
+            foreach($rows as $row) {
+          
+            $text = $row['text_esimene'];
+            $text1 = $row['text_tke'];
+            $text2 = $row['text_iseenda'];
+            
+
+            echo '<div class="repeaterblock_footer1__wrapper">';
+            echo '<p>' . $text . '</p>';
+            echo '<p>' . $text1 . '</p>';
+            echo '<p>' . $text2 . '</p>';
+            echo '</div>';
+            }
+        }
+        ?>
 
      </div>
 

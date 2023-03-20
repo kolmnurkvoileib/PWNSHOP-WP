@@ -33,17 +33,7 @@
 
 <div class="contact-free__item">
 
-    <img src="<?= get_template_directory_uri(); ?>/img/corona2.png" alt="Kontaktivaba pandimaja" width="500" height="500"/>
-
-    <h2>Kui Te soovite lepinguid pikendada või teha tagasimakseid panga kaudu, siis kandke vajalikud summad meie pangakontole LHV pangas: <br></h2>
-    <h2> <br>EE777700771003683711 <br><br></h2>
-    <h2>Kui Te olete makse sooritanud, siis palun teatage sellest meile kas meili või telefoni teel. Kui Te soovite oma eset välja osta ilma kontorisse koha peale tulemata, siis ka väljaostumakse saab teha panga kaudu ja me tagastame eseme Teile pakiautomaadiga või posti teel, kuid postikulu jääb kliendi kanda. <br></h2>
-
-</div>
-
-<div class="contact-free__item">
-
-    <h2>Kuidas pantida esemeid kontaktivabalt?</h2>
+    <h1>Kuidas pantida esemeid kontaktivabalt?</h1>
 
     <ul>
         <li><img src="<?= get_template_directory_uri(); ?>/img/diamondicon.svg" alt="Juveelide pant" width="64" height="64"/>Veendu, et ese oleks parimas korras ja puhas.</li>

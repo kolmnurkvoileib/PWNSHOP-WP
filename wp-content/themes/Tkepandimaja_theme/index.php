@@ -31,21 +31,21 @@
 
     <div class="contact-free">
 
-<div class="contact-free__item">
+<!-- <div class="contact-free__item">
 
     <h1>Kuidas pantida esemeid kontaktivabalt?</h1>
 
-    <ul>
-        <li><img src="<?= get_template_directory_uri(); ?>/img/diamondicon.svg" alt="Juveelide pant" width="64" height="64"/>Veendu, et ese oleks parimas korras ja puhas.</li>
-        <li><img src="<?= get_template_directory_uri(); ?>/img/dokument.svg" alt="Usaldusväärne pandimaja" width="64" height="64"/>Kasuta meie E-hindamist ja vorminda meiega leping</li>
-        <li><img src="<?= get_template_directory_uri(); ?>/img/kuller.svg" alt="kontaktivaba tehing" width="64" height="64"/>Saada oma ese meile pakiautomaati või kulleriga</li>
-        <li><img src="<?= get_template_directory_uri(); ?>/img/luup.svg" alt="E-hindamine" width="64" height="64"/>Oota kuni me saame eseme üle kontrollida</li>
-        <li><img src="<?= get_template_directory_uri(); ?>/img/euro.svg" alt="Teeni raha" width="64" height="64"/>Saa meie käest oma väljateenitud summa ja tunne rõõmu</li>
-    </ul>
+    <!-- <ul>
+        <li><img src="?= get_template_directory_uri(); ?>/img/diamondicon.svg" alt="Juveelide pant" width="64" height="64"/>Veendu, et ese oleks parimas korras ja puhas.</li>
+        <li><img src="?= get_template_directory_uri(); ?>/img/dokument.svg" alt="Usaldusväärne pandimaja" width="64" height="64"/>Kasuta meie E-hindamist ja vorminda meiega leping</li>
+        <li><img src="?= get_template_directory_uri(); ?>/img/kuller.svg" alt="kontaktivaba tehing" width="64" height="64"/>Saada oma ese meile pakiautomaati või kulleriga</li>
+        <li><img src="?= get_template_directory_uri(); ?>/img/luup.svg" alt="E-hindamine" width="64" height="64"/>Oota kuni me saame eseme üle kontrollida</li>
+        <li><img src="?= get_template_directory_uri(); ?>/img/euro.svg" alt="Teeni raha" width="64" height="64"/>Saa meie käest oma väljateenitud summa ja tunne rõõmu</li>
+    </ul> -->
 
-    <a href="/pantimine/">Leia rohkem infot kontaktivaba pantimise kohta siit</a>
+    <!-- <a href="/pantimine/">Leia rohkem infot kontaktivaba pantimise kohta siit</a> -->
 
-</div>
+<!-- </div> --> 
 
 </div>
 

@@ -1,26 +1,28 @@
-<div class="repeaterblock">
-    
-  <div class="repeaterblock_item">
-    <?php
-      // Get the repeater field rows
-      $rows = get_field('repeater');
+<div class="card-menu outside-page">
 
-      // Check if there are any rows
-      if($rows) {
-        // Loop through each row
-        foreach($rows as $row) {
-          // Get the subfield values
-          $image = $row['image'];
-          $text = $row['text'];
+            <div class="card-menu__card" onclick="window.location='/muuk/';">
+                <div class="card-menu__card-inside first-card">
+                    <h3>MÜÜK</h3>
+                </div>
+            </div>
 
-          // Display the subfield values in a container element
-          echo '<div class="repeaterblock_item__wrapper">';
-          echo '<img src="' . $image['url'] . '" alt="' . $image['alt'] . '">';
-          echo '<p>' . $text . '</p>';
-          echo '</div>';
-        }
-      }
-    ?>
-  </div>
+            <div class="card-menu__card" onclick="window.location='/pant/';">
+                <div class="card-menu__card-inside second-card">
+                    <h3>PANT</h3>
+                </div>
+            </div>
 
-</div>
+
+            <div class="card-menu__card" onclick="window.location='/kokkuost/';">
+                <div class="card-menu__card-inside third-card">
+                    <h3>KOKKUOST</h3>
+                </div>
+            </div>
+
+            <div class="card-menu__card" onclick="window.location='/hindamine/';">
+                <div class="card-menu__card-inside fourth-card">
+                    <h3>HINDAMINE</h3>
+                </div>
+            </div>
+
+        </div>

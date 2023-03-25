@@ -29,13 +29,16 @@
 
     </div>
 
-    <div class="contact-free">
+    
+    
+
+    <!-- <div class="contact-free"> -->
 
 <!-- <div class="contact-free__item">
 
     <h1>Kuidas pantida esemeid kontaktivabalt?</h1>
 
-    <!-- <ul>
+     <ul>
         <li><img src="?= get_template_directory_uri(); ?>/img/diamondicon.svg" alt="Juveelide pant" width="64" height="64"/>Veendu, et ese oleks parimas korras ja puhas.</li>
         <li><img src="?= get_template_directory_uri(); ?>/img/dokument.svg" alt="Usaldusväärne pandimaja" width="64" height="64"/>Kasuta meie E-hindamist ja vorminda meiega leping</li>
         <li><img src="?= get_template_directory_uri(); ?>/img/kuller.svg" alt="kontaktivaba tehing" width="64" height="64"/>Saada oma ese meile pakiautomaati või kulleriga</li>
@@ -47,9 +50,9 @@
 
 <!-- </div> --> 
 
-</div>
+<!-- </div> -->
 
-<div class="online-valuation">
+<!-- <div class="online-valuation">
 
 <div class="online-valuation__section">
 
@@ -65,19 +68,19 @@
     <div class="online-valuation__item-images">  
 
     <div class="image-item">
-    <img src="<?= get_template_directory_uri(); ?>/img/kell.png" alt="Raha kiirelt" width="128" height="128"/>
+    <img src="?= get_template_directory_uri(); ?>/img/kell.png" alt="Raha kiirelt" width="128" height="128"/>
     <h5>Kiire</h5>
     </div>
     <div class="image-item">
-    <img src="<?= get_template_directory_uri(); ?>/img/kott.png" alt="Hea hinnaga müük" width="128" height="128"/>
+    <img src="?= get_template_directory_uri(); ?>/img/kott.png" alt="Hea hinnaga müük" width="128" height="128"/>
     <h5>Kasulik</h5>
     </div>
     <div class="image-item">
-    <img src="<?= get_template_directory_uri(); ?>/img/kilp.png" alt="Turvaline pandimaja" width="128" height="128"/>
+    <img src="?= get_template_directory_uri(); ?>/img/kilp.png" alt="Turvaline pandimaja" width="128" height="128"/>
     <h5>Ohutu</h5>
     </div>
     <div class="image-item">
-    <img src="<?= get_template_directory_uri(); ?>/img/kindel.png" alt="Privaatne pandimaja" width="128" height="128"/>
+    <img src="?= get_template_directory_uri(); ?>/img/kindel.png" alt="Privaatne pandimaja" width="128" height="128"/>
     <h5>Privaatne</h5>
     </div>
 
@@ -89,7 +92,7 @@
 
 <div class="online-valuation__item">
 
-<img src="<?= get_template_directory_uri(); ?>/img/kohver.png"  alt="Teeni raha" width="512" height="384"/>
+<img src="?= get_template_directory_uri(); ?>/img/kohver.png"  alt="Teeni raha" width="512" height="384"/>
 
 </div>
 
@@ -117,9 +120,9 @@
 
 </div>
 
-</div>
+</div> -->
 
-<div class="front-page-information">
+<!-- <div class="front-page-information">
 
 <h1>Teave Tallinna pandimaja kohta</h1>
 
@@ -134,7 +137,7 @@
         Ainult tõeline meister suudab eset vääriliselt hinnata, teha kindlaks, 
     kas tegemist on originaaliga, ning anda kindlate kriteeriumide alusel hinnangu eseme seisundile.</p>
 
-</div>
+</div> -->
 </div>
 </div>
 <?php get_footer(); ?>

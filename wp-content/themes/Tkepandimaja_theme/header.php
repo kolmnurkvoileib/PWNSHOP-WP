@@ -91,7 +91,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <li class="js-language-menu-header"><img src="<?= get_template_directory_uri(); ?>/img/est.jpg" alt="Pandimaja Eesti Keel" width="64" height="41"></li>
       <li><a href="<?= esc_url($curret_rus_link); ?>"><img src="<?= get_template_directory_uri(); ?>/img/rus.jpg" alt="ломбард на русском" width="64" height="43"></a></li>
-
     </ul>
 
     <div class="custom-header__inside">
